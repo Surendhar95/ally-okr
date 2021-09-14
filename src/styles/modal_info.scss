@@ -1,0 +1,45 @@
+.modal-container {
+  width: 90%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: auto;
+  padding-bottom: 40px;
+  
+  .title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 16px;
+    margin-bottom: 30px;
+  }
+
+  .metric-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+
+    div {
+      width: 140px;
+      height: 120px;
+      border-radius: 8px;
+      border: 1px solid #d3d3d3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 10px 10px 10px 10px;
+      box-shadow: 0 2px 0px rgb(128, 128, 128);
+
+      .topic {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .value {
+        color: brown;
+      }
+    }
+  }
+}
