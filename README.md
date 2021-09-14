@@ -1,7 +1,7 @@
 Ally.io assignment
 =====================
 
-Listing OKRs fetched from public ally api with filters and modal.
+Listing OKRs fetched from public ally api with filters and modal. The webpage is responsive as well.
 
 ### Usage
 
