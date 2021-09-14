@@ -1,0 +1,33 @@
+.container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+
+  .list {
+    display: flex;
+    flex-direction: column;
+
+    .list-item {
+      height: 30px;
+      margin-top: 6px;
+      background-color: #99ccff;
+      padding: 14px;      
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      border-radius: 4px;
+      box-shadow: 0 2px 2px rgb(128, 128, 128);
+      cursor: pointer;
+
+      .arrows {
+        margin-right: 10px;
+      }
+
+      span {
+        margin-right: 4px;
+      }
+
+    }
+  }
+}
