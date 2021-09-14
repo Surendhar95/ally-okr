@@ -1,29 +1,23 @@
-React Boilerplate
+Ally.io assignment
 =====================
 
-A minimal and light dev environment for ReactJS.
+Listing OKRs fetched from public ally api with filters and modal.
 
 ### Usage
 
-Clone the boilerplate and create your own git repo.
+Clone the repo here.
 
 ```
-git clone git@github.com:nolotz/react-simple-boilerplate.git
+git@github.com:Surendhar95/ally-okr.git
 ```
 
 Install the dependencies and start the server.
 
 ```
-npm/yarn install
-npm/yarn start
-open http://localhost:3000
+yarn install
+yarn start
+open http://localhost:8080
 ```
-
-### Static Files
-
-You can store static files like images, fonts, etc in the `build` folder.
-
-For example, if you copy a file called my_image.png into the build folder you can access it using `http://localhost:3000/build/my_image.png`.
 
 ### Linting
 
